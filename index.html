@@ -2,6 +2,23 @@
 layout: default
 title: Boring Questions
 -->
+<!DOCTYPE html>
+<head>
+<title></title>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(function(){
+  $("head").load("_includes/head.html");
+  $("#header").load("_includes/header.html"); 
+  $("#footer").load("_includes/footer.html"); 
+});
+</script> 
+</head>
+<body>
+<div id="header"></div>
+
+
+<!-- below is body -->
 
         <section class="row wrapper">
             <div class="column left clearfix">
@@ -15,4 +32,10 @@ title: Boring Questions
             </div> <!-- #main -->
         </div> <!-- #main-container -->
 
+
+
       
+<!--Remaining section-->
+<div id="footer"></div>
+</body>
+</html>

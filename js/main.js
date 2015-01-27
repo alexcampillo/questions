@@ -13,12 +13,12 @@ $(document).ready(function() {
 		},
 		{
 			question: "More questions?",
-			choices: ["a", "b", "c"],
+			choices: ["20 dollar salad", "tete", "Maria's"],
 			answer: 0
 		},
 		{
 			question: "How many questions are in this quiz?",
-			choices: ["yes", "no"],
+			choices: ["fried mushroom", "no"],
 			answer: 0
 		},
 		{

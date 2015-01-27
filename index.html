@@ -3,17 +3,19 @@ layout: default
 title: Boring Questions
 -->
 <!DOCTYPE html>
-<head>
+<html>
+<head id="head">
 <title></title>
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script> 
 $(function(){
-  $("head").load("_includes/head.html");
+  $("#head").load("_includes/head.html");
   $("#header").load("_includes/header.html"); 
   $("#footer").load("_includes/footer.html"); 
 });
 </script> 
 </head>
+
 <body>
 <div id="header"></div>
 

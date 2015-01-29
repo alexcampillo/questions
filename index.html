@@ -21,11 +21,11 @@ layout: default
   </ul>
 
   <!-- ### -->
-  <ul class="wrapper ">
+  <ul class="wrapper">
 
     <li id="q2" id="question_transaction" >
       <h4>Which type of BD transaction do you want to do?</h4>
-      <ul class="bd_transaction">
+      <ul class="bd_transaction nav-pills nav-justified">
         <li><a id="bd_new_account" href="#later" class="selected">Open a New BD Account</a></li>
         <li><a id="bn_new_transaction" href="#bd_custodian">Start a New BD Transaction</a></li>
         <li><a id="bd_move_account" href="#bd_custodian">Move BD Account </a></li>
@@ -61,16 +61,19 @@ layout: default
                       <li><a id="bd_private_placement" href="#" class="selected">Private Placement</a></li>
                       <li><a id="bd_reit" href="#">REIT</a></li>
                       <li><a id="bd_energy" href="#">Energy Private Placement</a></li>
-                      <li><a id="bd_mms" href="#">Money Managers</a></li>
+                      <li><a id="bd_complex_product" href="#">Complex Products</a></li>
+                      <li><a id="bd_affliated_offering" href="#">Affiliated Offerings</a></li>
+                      <li><a id="bd_mms" href="#">Third Party Money Managers</a></li>
                       <li><a id="bd_no_ai" href="#">Not an alternative investment</a></li>
                   </ul>
                 </li>
 
-                  <ul class="wrapper">
+                <ul class="wrapper">
                 <li class="q6" id="answer_bd">
                   <h4>Here's a list of forms you need:</h4> <!-- to start an account @ NFS -->
                   <ul class="bd_answer tabs">
-                      <li><a id="bd_private_placement" href="#" class="selected">List of forms you need</a></li>
+                      <li><a id="bd_list_of_form" href="#" class="selected">List of forms you need</a></li>
+                      <li><p>Remember, always have the OFAC check and driver's license</p></li>
                   </ul>
                 </li>
                 </ul>
@@ -81,7 +84,7 @@ layout: default
       </ul>
 
 <!-- <ul class="wrapper"> -->
-    <li id="q4" class="question transaction" >
+    <li id="q7" class="question transaction" >
       <h4>Which type of RIA transaction do you want to do?</h4>
       <ul class="ria_transaction">
         <li><a id="ria_new_account" href="#" class="selected">Open New RIA Account</a></li>
@@ -89,6 +92,17 @@ layout: default
         <li><a id="ria_move_account" href="#">Move RIA Account </a></li>
       </ul>
     </li>
+
+      <ul class="wrapper">
+          <li class="q8" id="answer_ria">
+          <h4>Here's a list of forms you need:</h4> <!-- to start an account @ NFS -->
+          <ul class="ria_answer tabs">
+             <li><a id="ria_list_of_form" href="#" class="selected">List of forms you need</a></li>
+             <li><p>Remember, always have the OFAC check and driver's license</p></li>
+          </ul>
+          </li>
+      </ul>
+
 </ul>
 
 <ul class="wrapper"> 
@@ -100,6 +114,51 @@ layout: default
         <li><a id="insurance_move_account" href="#">1035 Exchange or Insurance Surrender</a></li>
       </ul>
     </li>
+
+          <ul class="wrapper">
+              <li class="q8" id="question_variable">
+              <h4>Is this a variable life annuity?</h4> 
+              <ul>
+                 <li><a id="variable_yes" href="#" class="selected">Yes</a></li>
+                 <li><a id="variable_no" href="#">No</a></li>
+              </ul>
+              </li>
+
+
+              <ul class="wrapper">
+                  <li class="q8" id="question_switch">
+                  <h4>Is this a switch transaction?</h4> 
+                  <ul>
+                     <li><a id="switch_yes" href="#" class="selected">Yes</a></li>
+                     <li><a id="switch_no" href="#">No</a></li>
+                  </ul>
+                  </li>
+
+
+                  <ul class="wrapper">
+                      <li class="q8" id="answer_insurance">
+                      <h4>Here's a list of forms you need:</h4> <!-- to start an account @ NFS -->
+                      <ul class="insurance_answer tabs">
+                         <li><a id="insurance_list_of_form" href="#" class="selected">List of forms you need</a></li>
+                         <li><p>Remember, always have the OFAC check and driver's license</p></li>
+                  </ul>
+              </li>
+          </ul>
+
+              </ul>
+
+
+
+
+          </ul>
+
+
+
+
+
+
+
+
 </ul>
 
 

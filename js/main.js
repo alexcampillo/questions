@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	var option = $('button[type=button]')
+
+	var option = $('input[type=radio]')
 
 	for(i = 0; i < option.count; i++){
 		if(option.val() == 0) {

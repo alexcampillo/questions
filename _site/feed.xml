@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Form Center</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
@@ -8,6 +9,14 @@
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Fri, 30 Jan 2015 08:29:40 -0600</pubDate>
     <lastBuildDate>Fri, 30 Jan 2015 08:29:40 -0600</lastBuildDate>
+=======
+    <title>Boring Questions</title>
+    <description></description>
+    <link>http://127.0.0.1:4000//</link>
+    <atom:link href="http://127.0.0.1:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 29 Jan 2015 23:06:40 -0600</pubDate>
+    <lastBuildDate>Thu, 29 Jan 2015 23:06:40 -0600</lastBuildDate>
+>>>>>>> 2e1378cb891df136c69fbe9ddf4be56f2d156dfd
     <generator>Jekyll v2.5.3</generator>
     
       <item>

@@ -13,20 +13,35 @@ layout: default
 
 {% for question in site.data.questions %}
   
-  <h4>{{ question.q }}</h1>
+  <h4>{{ question.q }}</h4>
   <div class="btn-group">
-    <button type="button" class="btn btn-info"><a href="#bd" class="selected">{{ question.a }}</a></button>
-    <button type="button" class="btn btn-info"><a href="#ria">{{ question.a2 }}</a></button>
-    <button type="button" class="btn btn-info"><a href="#insurance">{{ question.a3 }}</a></button>
-    <button type="button" class="btn btn-info"><a href="#insurance">{{ question.a4 }}</a></button>
-    <button type="button" class="btn btn-info"><a href="#insurance">{{ question.a5 }}</a></button>
-  </div>
+
+    <input type="button" class="btn btn-info" value="{{ question.a }}">
+
+    <input type="button" class="btn btn-info" value="{{ question.a2 }}">
+
+    <input type="button" class="btn btn-info" value="{{ question.a3 }}">
+
+    <input type="button" class="btn btn-info" value="{{ question.a4 }}">
+
+    <input type="button" class="btn btn-info" value="{{ question.a5 }}">
+
+    <input type="button" class="btn btn-info" value="{{ question.a6 }}">
+
+    <input type="button" class="btn btn-info" value="{{ question.a7 }}">
+
+ </div>
 
 {% endfor %}
 
 <section id="q1" class="question">
+
 <!--   <h4>Which type of business do you want to do?</h1>
+=======
+  <h4>Which type of business do you want to do?</h4>
+>>>>>>> 2e1378cb891df136c69fbe9ddf4be56f2d156dfd
   <div class="btn-group">
+    
     <button type="button" class="btn btn-info" id="first"><a href="#bd" class="selected">Broker Dealer</a></button>
     <button type="button" class="btn btn-info" id="first"><a href="#ria">RIA</a></button>
     <button type="button" class="btn btn-info" id="first"><a href="#insurance">Insurance</a></button>

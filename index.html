@@ -11,6 +11,17 @@ layout: default
 
 </section>
 
+{% for question in site.data.questions %}
+  
+  <h4>{{ question.q }}</h1>
+  <div class="btn-group">
+    <button type="button" class="btn btn-info" id="first"><a href="#bd" class="selected">{{ question.a }}</a></button>
+    <button type="button" class="btn btn-info" id="first"><a href="#ria">{{ question.a2 }}</a></button>
+    <button type="button" class="btn btn-info" id="first"><a href="#insurance">{{ question.a3 }}</a></button>
+  </div>
+
+{% endfor %}
+
 <section id="q1" class="question">
   <h4>Which type of business do you want to do?</h1>
   <div class="btn-group">

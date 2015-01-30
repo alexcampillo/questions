@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
@@ -38,10 +39,23 @@
             <div class="column left clearfix">
 
                 <article class="showQuestion"></article>
-                <article class="showQuestionChoices">
-                    <section class="choices clearfix"></section>
-                </article>
-                <a href="#" class="nextQuestion">Submit</a>
+                <!-- <article class="showQuestionChoices"> -->
+                    <!-- <section class="choices clearfix"> -->
+                    	<section class="btn-group" data-toggle="buttons">
+						  <label class="btn btn-primary active">
+						    <input type="radio" name="options" id="option1" autocomplete="off"> Nice Choice
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option2" autocomplete="off"> Great
+						  </label>
+						  <label class="btn btn-primary">
+						    <input type="radio" name="options" id="option3" autocomplete="off"> NO.
+						  </label>
+						</section>
+
+                   <!--  </section> -->
+               <!--  </article> -->
+                <!-- <a href="#" class="nextQuestion">Submit</a> -->
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
@@ -55,6 +69,7 @@
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
 

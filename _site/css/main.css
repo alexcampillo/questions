@@ -66,11 +66,9 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #2a7ae2;
   text-decoration: none; }
-  a:visited {
-    color: #1756a9; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #d9d9d9;
+    text-decoration: none; }
 
 /**
  * Blockquotes
@@ -142,6 +140,9 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+/**
+Custom CSS Codes by Anyi
+*/
 /**
  * Site header
  */

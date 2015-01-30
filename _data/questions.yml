@@ -1,0 +1,9 @@
+- q: What type of business do you want to do?
+  a: Broker Dealer
+  a2: RIA
+  a3: Insurance
+
+- q: Which type of BD transaction do you want to do?
+  a: Open a New BD Account
+  a2: Start a New BD Transaction
+  a3: Move BD Account
